@@ -17,6 +17,14 @@ corepack_enable: false
 host_db_port: "33061"
 bind_all_interfaces: true
 
+router_http_port: "33000"
+router_https_port: "33001"
+
+default_container_networks:
+    - ddev_default
+
+phpmyadmin_port: "8037"
+mailpit_port: "8026"
 # Key features of DDEV's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
