@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  db:
+    networks:
+      ddev_default:
+        ipv4_address: 172.18.0.5
+
+networks:
+  ddev_default:
+    external: true
+    name: ddev-utrecar3_default

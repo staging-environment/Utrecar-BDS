@@ -1,7 +1,6 @@
 [mysqld]
+# Indispensable para el SII y Virtusgesnet heredados de Windows
 lower_case_table_names=1
-
-# Desactivar la búsqueda inversa de DNS (Adiós a los segundos de retraso en el login)
 skip-name-resolve
 
 innodb_buffer_pool_size = 4G
